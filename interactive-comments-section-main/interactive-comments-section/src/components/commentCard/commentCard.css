@@ -1,0 +1,40 @@
+.link {
+  text-decoration: none;
+}
+.comment {
+  align-items: center;
+  padding: 5px;
+}
+.likeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e9fb;
+  width: 30px; /* Adjust the width as per your requirements */
+  height: 100px; /* Adjust the height as per your requirements */
+
+  border-radius: 20px;
+}
+.likes {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.cmt-top {
+  display: flex;
+  flex-direction: row;
+}
+.cmt-btn {
+  color: #bcc7f9;
+  line-height: bold;
+}
+.cmt-btn::visited {
+  color: #bcc7f9;
+  line-height: bold;
+}
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
