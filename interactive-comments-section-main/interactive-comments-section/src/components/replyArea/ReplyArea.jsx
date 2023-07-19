@@ -9,11 +9,11 @@ import './replyArea.css';
 
 const ReplyArea = () => {
     return (
-        <Container> 
+        <Container className='reply-ctr'> 
             <Stack direction="horizontal" gap={3} style={{width:'100%'}}>
                 <div><img src={avatar} alt='avatar' className='avatar'></img></div>
-                <div className='replyArea'><textarea className='replyArea' placeholder='comment'></textarea></div>
-                <div><Button variant='primary' className='replyBtn'>Send</Button></div>
+                <textarea className='replyArea' placeholder='comment'></textarea>
+                <div><Button  className='reply-btn'>Send</Button></div>
             </Stack>
         </Container>
     );

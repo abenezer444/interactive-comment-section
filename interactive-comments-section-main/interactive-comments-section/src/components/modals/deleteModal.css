@@ -1,0 +1,13 @@
+/* make modal header flex container and make it not stick to the left of the .modalFooter*/
+.modalHeader {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0.4em;
+  color: #3f4a55;
+}
+.modalFooter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  gap: 10px;
+}

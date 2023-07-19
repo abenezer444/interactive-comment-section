@@ -12,7 +12,7 @@ import reply from '../../assets/images/icon-reply.svg';
 
 const Comment = () => {
     return (
-      <Container  className='border'>
+      <Container  className='comment-ctr'>
         <Row className='comment'>
           <Col xs={2} className='likeContainer'>
             
@@ -28,7 +28,7 @@ const Comment = () => {
       <div >2 months ago</div>
       <div className="p-2 ms-auto"><img src={reply} className='p-2'></img>Reply</div>
     </Stack>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nam fugiat debitis, consequatur reprehenderit rem quidem aliquid molestiae temporibus doloremque?</div>
+    <div>Lorem lorem30 ipsum dolor sit amet consectetur adipisicing elit. Minus nam fugiat debitis, consequatur reprehenderit rem quidem aliquid molestiae temporibus doloremque?</div>
           </Col>
         </Row>
     </Container>

@@ -11,9 +11,8 @@
   align-items: center;
   justify-content: center;
   background-color: #e5e9fb;
-  width: 30px; /* Adjust the width as per your requirements */
-  height: 100px; /* Adjust the height as per your requirements */
-
+  width: 30px;
+  height: 100px;
   border-radius: 20px;
 }
 .likes {
@@ -37,4 +36,9 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+.comment-ctr {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px auto;
 }
